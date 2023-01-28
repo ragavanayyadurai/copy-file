@@ -24,16 +24,14 @@ Print the output.
 ```python
 #Developed by: Ragavendran A
 #Registered number: 22008885
-with open("git.txt","r") as f1:
+with open("text2.txt","r") as f1:
     with open("MyFile.txt","a") as f2:
         for line in f1:
             f2.write(line)
 
 ```
 ### OUTPUT:
-![output](/output1.png)
 ![output](/output2.png)
-![output](/output3.png)
 
 
 ## RESULT:
